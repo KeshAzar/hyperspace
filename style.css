@@ -37,6 +37,7 @@ body:before{
   transform-style: preserve-3d;
   animation: move 24s infinite linear;
   animation-fill-mode: forwards;
+  animation: spin 30s infinite;
   
 }
 
@@ -90,7 +91,7 @@ body:before{
   100%{opacity: 0;}
 }
   
-@keyframes spinZ {  
+@keyframes spin {  
   0%   {-webkit-transform: rotateZ(0deg); -webkit-transform-origin: 50% 50% 0;}  
   100% {-webkit-transform: rotateZ(360deg); -webkit-transform-origin: 50% 50% 0;} 
 }
