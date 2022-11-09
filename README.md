@@ -11,7 +11,7 @@ apt-get install apache2
 ```
 -> Création d'une clé SSH et ajout de la clé dans le profil Github
 ``` sh
-ssh-keygen -t rsa*
+ssh-keygen -t rsa
 ```
 -> Récupération du git via git clone 
 ``` sh
