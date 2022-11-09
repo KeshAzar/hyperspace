@@ -36,14 +36,14 @@ body:before{
   left: -500px;
   top: -500px;
   transform-style: preserve-3d;
-  animation: move 12s infinite linear;
+  animation: move 24s infinite linear;
   animation-fill-mode: forwards;
   
 }
 
 .wrap:nth-child(2){
-  animation: move 12s infinite linear;
-  animation-delay: 6s;
+  animation: move 24s infinite linear;
+  animation-delay: 12s;
 }
 
 .wall {
@@ -51,12 +51,12 @@ body:before{
   height: 100%;
   position: absolute;
   opacity: 0;
-  animation: fade 12s infinite linear;
+  animation: fade 24s infinite linear;
   animation-delay: 0;
 }
 
 .wrap:nth-child(2) .wall {
-  animation-delay: 6s;
+  animation-delay: 12s;
 }
 
 .wall-right {
