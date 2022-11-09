@@ -52,8 +52,6 @@ body:before{
   opacity: 0;
   animation: fade 24s infinite linear;
   animation-delay: 0s;
-  animation: spinZ 30s infinite;
-  animation-delay: 0s;
 }
 
 .wrap:nth-child(2) .wall {
