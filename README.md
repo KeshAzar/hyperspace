@@ -19,5 +19,5 @@ git clone git@github.com:KeshAzar/hyperspace.git
 ```
 -> Ajout des fichiers clonés dans le dossier apache
 ```sh
-cp /hyperspace/* /var/www/html
+cp hyperspace/* /var/www/html
 ```
