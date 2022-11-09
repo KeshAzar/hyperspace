@@ -50,9 +50,8 @@ body:before{
   height: 100%;
   position: absolute;
   opacity: 0;
-  animation: fade 24s infinite linear;
-  animation-delay: 0;
-  animation: spinZ 30s infinite;
+  -webkit-animation: fade 24s infinite linear;
+  -webkit-animation: spinZ 30s infinite;
 }
 
 .wrap:nth-child(2) .wall {
@@ -79,12 +78,12 @@ body:before{
   transform: rotateX(180deg) translateZ(500px);
 }
 
-@keyframes move {
-  0%{transform: translateZ(-500px) rotate(0deg);}
-  100%{transform: translateZ(500px) rotate(0deg);}
+@-webkit-keyframes move {
+  0%{-webkit-transform: translateZ(-500px) rotate(0deg);}
+  100%{-webkit-transform: translateZ(500px) rotate(0deg);}
 }
 
-@keyframes fade {
+@-webkit-keyframes fade {
   0%{opacity: 0;}
   25% {opacity: 1;}
   75% {opacity: 1;}
