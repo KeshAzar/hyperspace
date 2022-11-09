@@ -95,9 +95,21 @@ body:before{
   0%{
     transform: rotate(0deg);
     transform-origin: 50% 50% 0;
+    filter: hue-rotate(0deg);
+  }
+  25%{
+    transform: rotate(90deg);
+    transform-origin: 50% 50% 0;
+    filter: hue-rotate(90deg);
+  }
+  75%{
+    transform: rotate(270deg);
+    transform-origin: 50% 50% 0;
+    filter: hue-rotate(270deg);
   }
   100%{
     transform: rotate(360deg);
     transform-origin: 50% 50% 0;
+    filter: hue-rotate(360deg);
   }
 }
