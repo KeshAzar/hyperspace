@@ -1,7 +1,7 @@
 .wall{
   background: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/jpegpia23403.jpg);
   background-size: cover;
-  -webkit-animation: spinX 30s infinite;
+  -webkit-animation: spinZ 30s infinite;
 }
 
 html, body{
@@ -153,7 +153,7 @@ body:before{
 
 
 
-/* 
+
 .scene { 
   animation: 🤫 300s infinite linear;
 }
@@ -172,4 +172,4 @@ body:before{
     filter: hue-rotate(360deg);
   }
 } 
-*/
+
