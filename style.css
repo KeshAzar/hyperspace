@@ -26,6 +26,8 @@ body:before{
   perspective: 5px;
   perspective-origin: 50% 50%;
   position: relative;
+  animation: spin 30s infinite;
+  animation-delay: 0;
 }
 
 .wrap{
@@ -87,4 +89,15 @@ body:before{
   25% {opacity: 1;}
   75% {opacity: 1;}
   100%{opacity: 0;}
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+    transform-origin: 50% 50% 0;
+  }
+  100%{
+    transform: rotate(360deg);
+    transform-origin: 50% 50% 0;
+  }
 }
