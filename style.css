@@ -1,6 +1,10 @@
 .wall{
   background: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/jpegpia23403.jpg);
   background-size: cover;
+  animation-name: spinning;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 html, body{
@@ -78,13 +82,6 @@ body:before{
 .wall-back {
   transform: rotateX(180deg) translateZ(500px);
 }
-
-.spin {
-    animation-name: spinning;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
 
 @keyframes move {
   0%{
