@@ -1,12 +1,8 @@
 .wall{
   background: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/jpegpia23403.jpg);
   background-size: cover;
-}
-
-.wall:after{
   -webkit-animation: spinZ 30s infinite;
 }
-
 html, body{
   height: 100%;
   width: 100%;
