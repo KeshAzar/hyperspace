@@ -26,7 +26,7 @@ body:before{
   perspective: 5px;
   perspective-origin: 50% 50%;
   position: relative;
-  animation: spin 30s infinite;
+  animation: spin 30s infinite linear;
   animation-delay: 0;
 }
 
