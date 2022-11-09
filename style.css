@@ -36,9 +36,7 @@ body:before{
   top: -500px;
   transform-style: preserve-3d;
   animation: move 24s infinite linear;
-  animation-fill-mode: forwards;
-  animation: spin 30s infinite;
-  
+  animation-fill-mode: forwards; 
 }
 
 .wrap:nth-child(2){
@@ -52,6 +50,7 @@ body:before{
   position: absolute;
   opacity: 0;
   animation: fade 24s infinite linear;
+  animation: spin 30s infinite;
   animation-delay: 0s;
 }
 
