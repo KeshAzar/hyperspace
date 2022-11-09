@@ -89,3 +89,26 @@ body:before{
   100% {-webkit-transform: rotateZ(360deg); -webkit-transform-origin: 50% 50% 0;}  
   }
 }
+
+@keyframes move {
+  0%{
+    transform: translateZ(-500px) rotate(0deg);
+  }
+  100%{
+    transform: translateZ(500px) rotate(0deg);
+  }
+  
+@keyframes fade {
+  0%{
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
